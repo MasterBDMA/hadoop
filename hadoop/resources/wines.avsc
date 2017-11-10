@@ -1,0 +1,21 @@
+{"namespace": "wineinfo.avro",
+ "type": "record",
+ "name": "WineInfo",
+ "fields": [
+     {"name": "type", "type": "string"},
+     {"name": "region",  "type": ["int", "null"]},
+     {"name": "alc", "type": ["double", "null"]},
+     {"name": "m_acid", "type": ["double", "null"]},
+     {"name": "ash", "type": ["double", "null"]},
+     {"name": "alc_ash", "type": ["double", "null"]},
+     {"name": "mgn", "type": ["double", "null"]},
+     {"name": "t_phenols", "type": ["double", "null"]},
+     {"name": "flav", "type": ["double", "null"]},
+     {"name": "nonflav_phenols", "type": ["double", "null"]},
+     {"name": "proant", "type": ["double", "null"]},
+     {"name": "col", "type": ["double", "null"]},
+     {"name": "hue", "type": ["double", "null"]},
+     {"name": "od280od315", "type": ["double", "null"]},
+     {"name": "proline", "type": ["double", "null"]}
+ ]
+}
